@@ -1,4 +1,4 @@
-# Security Configuration Guide for EquiPay
+# Security Configuration Guide for PROPAY
 
 ## ⚠️ IMPORTANT: Secret Keys Management
 

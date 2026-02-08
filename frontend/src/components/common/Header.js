@@ -14,7 +14,7 @@ const Header = () => {
     <Navbar bg="white" expand="lg" className="shadow-sm" fixed="top">
       <Container fluid>
         <Navbar.Brand href="/dashboard" className="text-primary">
-          💼 PROPAY - Employee Payroll System
+          💼 Employee Payroll System
         </Navbar.Brand>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

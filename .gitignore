@@ -1,0 +1,48 @@
+# Root level .gitignore for EquiPay project
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.txt
+config/secrets/
+
+# Logs
+*.log
+logs/
+backend.log
+frontend.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Temporary files
+*~
+*.tmp
+*.temp
+.cache/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Build artifacts
+target/
+build/
+dist/

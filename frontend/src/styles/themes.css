@@ -1,0 +1,228 @@
+/* Dark Theme Styles */
+.dark-theme {
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-body-bg: #1a1a1a;
+  --bs-body-color: #e9ecef;
+  --bs-emphasis-color: #ffffff;
+}
+
+.dark-theme {
+  background-color: #1a1a1a !important;
+  color: #e9ecef !important;
+}
+
+.dark-theme .navbar {
+  background-color: #212529 !important;
+  border-bottom: 1px solid #495057;
+}
+
+.dark-theme .sidebar {
+  background-color: #212529 !important;
+  border-right: 1px solid #495057;
+}
+
+.dark-theme .sidebar .nav-link {
+  color: #adb5bd !important;
+}
+
+.dark-theme .sidebar .nav-link:hover,
+.dark-theme .sidebar .nav-link.active {
+  background-color: #495057 !important;
+  color: #ffffff !important;
+}
+
+.dark-theme .card {
+  background-color: #2d3748 !important;
+  border: 1px solid #495057 !important;
+  color: #e9ecef !important;
+}
+
+.dark-theme .card-header {
+  background-color: #374151 !important;
+  border-bottom: 1px solid #495057 !important;
+}
+
+.dark-theme .table {
+  background-color: #2d3748 !important;
+  color: #e9ecef !important;
+}
+
+.dark-theme .table-striped tbody tr:nth-of-type(odd) {
+  background-color: #374151 !important;
+}
+
+.dark-theme .table-hover tbody tr:hover {
+  background-color: #495057 !important;
+}
+
+.dark-theme .form-control,
+.dark-theme .form-select {
+  background-color: #374151 !important;
+  border: 1px solid #495057 !important;
+  color: #e9ecef !important;
+}
+
+.dark-theme .form-control:focus,
+.dark-theme .form-select:focus {
+  background-color: #374151 !important;
+  border-color: #0d6efd !important;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+  color: #e9ecef !important;
+}
+
+.dark-theme .btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.dark-theme .btn-outline-primary:hover {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  color: #ffffff;
+}
+
+.dark-theme .modal-content {
+  background-color: #2d3748 !important;
+  color: #e9ecef !important;
+}
+
+.dark-theme .modal-header {
+  border-bottom: 1px solid #495057 !important;
+}
+
+.dark-theme .modal-footer {
+  border-top: 1px solid #495057 !important;
+}
+
+.dark-theme .dropdown-menu {
+  background-color: #2d3748 !important;
+  border: 1px solid #495057 !important;
+}
+
+.dark-theme .dropdown-item {
+  color: #e9ecef !important;
+}
+
+.dark-theme .dropdown-item:hover,
+.dark-theme .dropdown-item:focus {
+  background-color: #495057 !important;
+  color: #ffffff !important;
+}
+
+.dark-theme .alert-success {
+  background-color: #0f2419 !important;
+  border-color: #198754 !important;
+  color: #a3cfbb !important;
+}
+
+.dark-theme .alert-danger {
+  background-color: #2c0b0e !important;
+  border-color: #dc3545 !important;
+  color: #f1aeb5 !important;
+}
+
+.dark-theme .alert-warning {
+  background-color: #332701 !important;
+  border-color: #ffc107 !important;
+  color: #ffecb5 !important;
+}
+
+.dark-theme .alert-info {
+  background-color: #032830 !important;
+  border-color: #0dcaf0 !important;
+  color: #b3f0ff !important;
+}
+
+/* Chart.js dark theme */
+.dark-theme canvas {
+  filter: brightness(0.8) contrast(1.2);
+}
+
+/* Custom styles for Indian Rupee formatting */
+.rupee-amount {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.rupee-large {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.rupee-small {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Theme toggle removed - now available in Settings page */
+
+/* Loading spinner for dark theme */
+.dark-theme .spinner-border {
+  color: #0d6efd;
+}
+
+/* Custom scrollbar for dark theme */
+.dark-theme ::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dark-theme ::-webkit-scrollbar-track {
+  background: #2d3748;
+}
+
+.dark-theme ::-webkit-scrollbar-thumb {
+  background: #495057;
+  border-radius: 4px;
+}
+
+.dark-theme ::-webkit-scrollbar-thumb:hover {
+  background: #6c757d;
+}
+
+/* Badge styles for dark theme */
+.dark-theme .badge {
+  background-color: #495057 !important;
+  color: #e9ecef !important;
+}
+
+.dark-theme .badge.bg-primary {
+  background-color: #0d6efd !important;
+}
+
+.dark-theme .badge.bg-success {
+  background-color: #198754 !important;
+}
+
+.dark-theme .badge.bg-warning {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+}
+
+.dark-theme .badge.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+/* Pagination for dark theme */
+.dark-theme .page-link {
+  background-color: #2d3748 !important;
+  border-color: #495057 !important;
+  color: #0d6efd !important;
+}
+
+.dark-theme .page-link:hover {
+  background-color: #495057 !important;
+  border-color: #6c757d !important;
+  color: #0d6efd !important;
+}
+
+.dark-theme .page-item.active .page-link {
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+}
